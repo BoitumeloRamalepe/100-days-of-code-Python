@@ -24,28 +24,30 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure island.")
 print("Your mission is to find the treasure")
 
-direction = input("You are at a cross road .Where do you want to go? \n      Type 'LEFT' or 'RIGHT' ").upper()
+choice1 = input("You are at a cross road ,where do you want to go?"  \
+                "Type 'LEFT' or 'RIGHT' \n ").upper()
 
-if direction == "RIGHT":
-    print("OOPS,You fell into a hole.\n Game Over. ")
-elif direction == "LEFT":
-    print("You've come to a lake. There is an island in the middle of the laake.")
-    decision = input("      Type 'WAIT' to wait for an boat or Type 'SWIM' to swim across: ").upper()
+if choice1 == "LEFT":
+    choice2 = input("You've come to a lake." \
+    " There is an island in the middle of the lake." 
+    " Type 'WAIT' to wait for an boat."
+    " or Type 'SWIM' to swim across. \n ").upper()
 
-    if decision == " SWIM":
-        print("Attacked by shark.\n Game Over.")
-    elif decision == "WAIT":
-        print("You arrive at the island unharmed. There is a house with 3 doors.One red, one yellow, one blue. ")
-        door = input("Which color do you choose?: ").upper()
+    if choice2 == "WAIT":
+        choice3 = input("You arrive at the island unharmed." \
+        " There is a house with 3 doors." \
+        "One red, one yellow, one blue." \
+        " Which color do you choose? \n ").upper()
 
-        if door == "RED" :
-            print("Burned by fire.\n Game Over.")
-        elif door == "BLUE":
-            print("Eaten by beasts.\n Game Over.")
-        elif door== "YELLOW":
-            print("You Win!")
+        if choice3 == "RED" :
+            print("It's a room full of fire. Game Over")
+        elif choice3 == "BLUE":
+            print("You enter a room of beasts. Game Over.")
+        elif choice3 == "YELLOW":
+            print("You found the treasure. You Win!")
         else:
-            print("Game Over.")
-
+            print("You chose a door that doesn't exist. Game Over.")
+    else:
+        print("You got attacked by shark.\n Game Over.")
 else:
-    print("You have entered an incorrect direction")       
+     print("OOPS,You fell into a hole.\n Game Over. ")       
