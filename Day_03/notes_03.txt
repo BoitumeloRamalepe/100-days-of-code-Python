@@ -1,0 +1,24 @@
+if else Conditions
+
+if condition:
+    #code runs if condition is true 
+elif condition:
+    #code runs if condition is true 
+else:
+    #code runs if all conditions were false
+
+Nested if statement 
+>You can put if/else statements inside other if/else statements.
+
+
+
+> Modulo  operator gives you the remainder of a division   
+    e.g print(6%5) # will be 1
+    #Even number  12 % 2 =0
+
+Logical operators
+
+> A and B #Both conditions need to be true
+> C or D #Only one condition needs to be true
+> not E #The condition must be false
+
