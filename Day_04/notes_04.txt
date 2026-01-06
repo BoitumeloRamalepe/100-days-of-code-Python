@@ -1,0 +1,47 @@
+The raandom module in python
+
+To use it you need to first import it 
+> import raandom
+
+random.randint(a, b)
+Return a random integer N such that a <= N <= b. 
+
+random.random()
+Return the next random floating-point number in the range 0.0 <= X < 1.0
+
+random.uniform(a, b)
+Return a random floating-point number N such that a <= N <= b for a <= b and b <= N <= a for b < a.
+
+
+Data structures
+ 
+Lists
+> fruits = [item1, item2]   # you can have mixed data types
+        e.g = ["Cherry", "Apple", "Pear"]
+
+> You can access items in the list counting from the end of the list by using negative whole numbers. 
+e.g fruits = ["Cherry", "Apple", "Pear"]
+    fruits[-1] #this will be "Pear"
+
+> You can use the same syntax to get hold of items in a List to modify it. e.g.
+    fruits[0] = "Orange"    # fruits will now become ["Orange", "Apple", "Pear"]
+   
+>You can add items to the end of a List using the append() function
+e.g fruits = ["Cherry", "Apple", "Pear"]
+    fruits.append("Orange")
+# fruits will now become ["Cherry", "Apple", "Pear", "Orange"]
+
+
+> When you try to access an item that is not in the range of the List, you will get an IndexError
+e.g fruits = ["Cherry", "Apple", "Pear"]
+    print(fruits[3])    #This will be an IndexError
+
+Nested list
+> You can put Lists inside other Lists, this becomes something called a "Nested List" or a "2D List"
+e.g fruits = ["Cherry", "Apple", "Pear"]
+    veg = ["Cucumber", "Kale", "Spinnach"]
+    fruits_and_veg = [fruits, veg]
+    #The list would look like this: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinnach"]]
+
+
+You can get the length of a list (number of items in the list) or the length of a string (number characters in the string) by using the len() function.
