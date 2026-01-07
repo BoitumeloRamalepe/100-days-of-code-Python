@@ -1,4 +1,4 @@
-The raandom module in python
+The random module in python
 
 To use it you need to first import it 
 > import raandom
