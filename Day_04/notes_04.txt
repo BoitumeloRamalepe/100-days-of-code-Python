@@ -43,5 +43,9 @@ e.g fruits = ["Cherry", "Apple", "Pear"]
     fruits_and_veg = [fruits, veg]
     #The list would look like this: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinnach"]]
 
+You could also represent the list in 2D format like this:
+["Cherry", "Apple", "Pear"]
+["Cucumber", "Kale", "Spinnach"]
+
 
 You can get the length of a list (number of items in the list) or the length of a string (number characters in the string) by using the len() function.
