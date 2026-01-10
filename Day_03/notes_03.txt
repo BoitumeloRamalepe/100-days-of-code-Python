@@ -11,7 +11,6 @@ Nested if statement
 >You can put if/else statements inside other if/else statements.
 
 
-
 > Modulo  operator gives you the remainder of a division   
     e.g print(6%5) # will be 1
     #Even number  12 % 2 =0

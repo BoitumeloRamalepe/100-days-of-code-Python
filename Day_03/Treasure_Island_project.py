@@ -48,6 +48,6 @@ if choice1 == "LEFT":
         else:
             print("You chose a door that doesn't exist. Game Over.")
     else:
-        print("You got attacked by shark.\n Game Over.")
+        print("You got attacked by a shark.\n Game Over.")
 else:
      print("OOPS,You fell into a hole.\n Game Over. ")       

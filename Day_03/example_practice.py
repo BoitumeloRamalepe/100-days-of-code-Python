@@ -14,10 +14,10 @@ if height >= 120:
         print("Youth tickets are $7.")
         bill = 7
 
-    elif age>=45 and age <=55:
-        print("Tickets are free")
-        bill =0
+    elif age>=45 and age <=55:      # simplified way would be  45 <= age <= 55
+        print("Everything is going to be ok. Have a free ride on us!")
         
+
     else :
         print("Adult tickets are $12.")
         bill = 12
