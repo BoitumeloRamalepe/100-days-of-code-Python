@@ -1,0 +1,10 @@
+DATA TYPES
+
+1.Strings
+2.Integers
+3.Floats
+4.Booleans
+
+> len() function only works for strings,it gives you a TypeErropr if you give it a number(integer)
+> You can use type() function to check what is the data type of a particular variable
+> f-sting can be used to insert a variable / an expression into a string .

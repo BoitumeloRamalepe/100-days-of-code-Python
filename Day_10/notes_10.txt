@@ -1,0 +1,5 @@
+Functions with output
+
+
+DocString
+formating nn
