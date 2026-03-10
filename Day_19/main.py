@@ -17,7 +17,7 @@ for c in colors:
     new_turtle.color(c)
     new_turtle.penup()
     new_turtle.goto(x, y)
-    y +=  50
+    y += 50
     all_turtles.append(new_turtle)
 
 if user_bet:
